@@ -1,0 +1,12 @@
+Part 1: Discussion Questions
+Explain the differences between var, let, and const in JavaScript regarding variable scope, hoisting, and reassignment.
+What are the primitive data types available in JavaScript, and how do they fundamentally differ from reference types like arrays and objects?
+Discuss the difference between loose equality (==) and strict equality (===). Why is strict equality generally considered a best practice?
+How do logical operators (&&, ||, ---) evaluate expressions, and what is meant by "short-circuit evaluation"?
+Describe how a conditional switch statement can be used as an alternative to a long chain of if...else if statements, and explain the role of the default keyword.
+Part 2: Implementation Exercises
+Variables and Data Types: Declare three separate variables using let, const, and var to store your full name (string), your age (number), and whether you are enrolled in a class (boolean). Log each variable and its corresponding typeof result to the console.
+Operators and Type Coercion: Write a code snippet that demonstrates type coercion by attempting to add a numeric string (e.g., "5") to a number (e.g., 10), and contrast this with using the multiplication operator on the same values.
+Conditional Statements (if...else): Write an if...else if...else statement that evaluates a variable representing a movie ticket buyer's age. The code should output different pricing tiers: children under 5 get in free, youth aged 5 to 17 get a child discount, adults aged 18 to 64 pay full price, and seniors 65 and older get a senior discount.
+Conditional (Ternary) Operator: Create a variable holding a user's account balance. Use the ternary operator to evaluate whether the balance is less than zero; if true, assign the string "Account Overdrawn", otherwise assign "Account Active".
+Comprehensive Challenge: Write a short script using variables, arithmetic operators, and a switch statement that calculates a final grade based on a numeric score out of 100 divided into ranges for grades A, B, C, D, and F.
